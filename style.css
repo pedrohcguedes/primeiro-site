@@ -14,6 +14,9 @@ body {
   min-height: 100vh;
 }
 
+
+/* --- CURIOSIDADES --- */
+
 .pedro {
   width: 200px;
   top: 0;
@@ -90,7 +93,7 @@ li a:hover {
   background-color:rgba(171, 162, 171, 0.767);
   padding: 15px 17px;
   transition: 100ms linear;
-  
+  border-radius: 15px;
 }
 
 a {
@@ -104,11 +107,12 @@ a {
   font-weight: 700;
   color: black;
   background-color:  rgb(171, 162, 171);
+  border-radius: 15px;
 }
 
 /* -- MAIN -- */
 
-.container {
+#container {
   background-color: rgba(0, 0, 0, 0.353);
   width: 100%;
   max-width: 900px;
@@ -198,5 +202,60 @@ a{
   display: flex;
   width: 60px;
   height: 60px;
+}
+
+/* --- INDEX --- */
+
+#secoes {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.353);
+  width: 100%;
+  max-width: 1300px;
+  padding: 24px 24px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.378);
+  box-shadow: 6px 6px 10px;
+}
+
+.resumo{
+  background-color: rgba(0, 0, 0, 0.353);
+  width: 100%;
+  max-width: 427px;
+  margin: 0px 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.378);
+  box-shadow: 6px 6px 10px;
+}
+
+#foto {
+  border-radius: 50%;
+}
+
+.imagem-perfil {
+  margin: 0 25px;
+}
+
+.contatos {
+  background-color: rgba(0, 0, 0, 0.353);
+  width: 100%;
+  max-width: 427px;
+  margin: 0px 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.378);
+  box-shadow: 6px 6px 10px;
+}
+
+
+.box1 {
+  width: 100%;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.452);
+  border-radius: 15px 15px 0 0;
+}
+
+.inbox1 {
+  margin: 7.5px;
 }
 
