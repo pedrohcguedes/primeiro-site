@@ -85,7 +85,12 @@ li a {
 }
 
 li a:hover {
-  background-color: rgba(83, 41, 180, 0.274);
+  font-weight: 700;
+  color: black;
+  background-color:rgba(171, 162, 171, 0.767);
+  padding: 15px 17px;
+  transition: 100ms linear;
+  
 }
 
 a {
@@ -96,7 +101,9 @@ a {
 }
 
 .active {
-  background-color: #9d00bc3c;
+  font-weight: 700;
+  color: black;
+  background-color:  rgb(171, 162, 171);
 }
 
 /* -- MAIN -- */
