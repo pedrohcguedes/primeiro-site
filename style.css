@@ -1,3 +1,4 @@
+
 /* -- NAVBAR -- */
 
 body {
@@ -7,34 +8,30 @@ body {
     rgb(171, 162, 171) 80%
   );
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 100vh;
+  flex-wrap: nowrap;
 }
 
 /* --- CURIOSIDADES --- */
 
 .pedro {
   width: 200px;
-  top: 0;
-  left: 0;
   margin: 0;
   float: left;
   padding: 14px 16px;
   text-align: center;
+  font-family: Georgia, serif;
+  font-weight: 100;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
   position: fixed;
   align-items: center;
-  margin: 0;
   width: 100%;
   padding: 10px 14px;
   left: 0;
   top: 0;
-  overflow: hidden;
   background-color: rgb(19, 19, 19);
   border-bottom: 1px solid white;
 }
@@ -47,10 +44,6 @@ nav {
 
 h1 {
   margin: 0;
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-weight: 200;
-  font-variant: small-caps;
   color: rgb(255, 255, 255);
 }
 
@@ -119,11 +112,14 @@ a {
 /* -- MAIN -- */
 
 #container {
+  display: flex;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.353);
   width: 100%;
   max-width: 650px;
   padding: 0 24px;
-  margin: 90px auto 30px auto;
+  margin-bottom: 30px;
+  margin-top: 90px;
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.378);
   box-shadow: 6px 6px 10px;
@@ -136,6 +132,7 @@ section {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-bottom: 85px;
 }
 
@@ -222,7 +219,7 @@ iframe {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.353);
   backdrop-filter: blur(5px);
-  margin: 0 0 4px 0;
+  margin-top: 20px;
   padding: 2px;
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.378);
@@ -234,7 +231,7 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 article {
@@ -287,12 +284,12 @@ a {
 
 #secoes {
   display: flex;
-  justify-content: center;
   background-color: rgba(0, 0, 0, 0.353);
   width: 100%;
   max-width: 1000px;
   padding: 24px 24px;
   margin: 0 auto;
+  align-items: center;
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.378);
   box-shadow: 6px 6px 10px;
@@ -309,12 +306,15 @@ a {
 }
 
 #foto {
+  align-items: center;
   border-radius: 50%;
   border: 2px solid white;
   box-shadow: 6px 6px 50px;
 }
 
 .imagem-perfil {
+  width: 204px;
+  height: 204px;
   margin: 0 25px;
 }
 
@@ -338,6 +338,43 @@ a {
 .inbox1 {
   margin: 7.5px;
   color: rgba(0, 0, 0, 0.89);
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.redes {
+  margin: 30px 20px 15px 20px;
+  padding: 0;
+  border: 1px dashed white;
+  border-radius: 10px;
+}
+
+.redes-info {
+  
+  display: flex;
+  align-items: center;
+  margin: 10px 5px;
+}
+
+.icones {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px 0px 0px;
+}
+
+.link-redes {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.resumo-info {
+  height: 300px;
 }
 
 
