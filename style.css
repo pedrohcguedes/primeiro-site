@@ -137,9 +137,7 @@ main {
 }
 
 #main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: flex; 
 }
 
 #sobre-main {
@@ -188,7 +186,6 @@ p {
 
 .container2 {
   background-color: rgba(0, 0, 0, 0.353);
-  backdrop-filter: blur(2px);
   width: 100%;
   max-width: 640px;
   padding: 0 24px;
@@ -200,7 +197,6 @@ p {
 
 .container3 {
   background-color: rgba(0, 0, 0, 0.353);
-  backdrop-filter: blur(5px);
   width: 100%;
   max-width: 640px;
   padding: 0 24px;
@@ -224,14 +220,6 @@ iframe {
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.378);
   box-shadow: rgba(255, 255, 255, 0.11) 6px 6px 10px;
-}
-
-#musicas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
 }
 
 article {
