@@ -16,12 +16,16 @@
         <div class="nav">
           <div class="opcoes">
             <ul>
-              <li><a href="index.html">Sobre Mim</a></li>
-              <li>
+              <li id="mim-nav"><a href="index.html">Sobre Mim</a></li>
+              <li id="curiosidade-nav">
                 <a href="curiosidades.html">Curiosidades</a>
               </li>
-              <li><a class="active" href="site.html">Sobre o Site</a></li>
+              <li id="site-nav"><a class="active" href="site.html">Sobre o Site</a></li>
             </ul>
+            <div class="botoes-funcionais">
+              <button id="btn-traduzir3" class="btn-idioma">Translate</button>
+              <button id="btn-tema" class="btn-idioma">Theme</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -46,16 +50,6 @@
         </p>
       </div>
     </main>
-
-    <footer>
-      <div id="seta-direita">
-        <a href="curiosidades.html"
-          ><button class="botao2" type="submit">
-            <i class="fa fa-arrow-right" aria-hidden="true"
-              ><img class="seta" src="./img/flecha3.png"
-            /></i></button
-        ></a>
-      </div>
-    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

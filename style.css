@@ -1,4 +1,3 @@
-
 /* -- NAVBAR -- */
 
 body {
@@ -102,9 +101,7 @@ a {
   background-color: rgb(171, 162, 171);
   border: 2px solid rgb(255, 255, 255);
   box-shadow: 
-  /* Sombra externa */
-  0 0 5px rgba(0, 0, 0, 0.25), 
-  /* Sombra interna */
+  0 0 5px rgba(0, 0, 0, 0.25),
   0 0 10px rgba(255, 255, 255, 0.25);
   border-radius: 15px;
 }
@@ -137,7 +134,7 @@ main {
 }
 
 #main {
-  display: flex; 
+  display: flex;
 }
 
 #sobre-main {
@@ -161,6 +158,9 @@ main {
 
 h2 {
   text-decoration: underline;
+  padding: 5px;
+  background-color: rgba(29, 27, 27, 0.353);
+  border-radius: 5px;
 }
 
 .titulo-sobre {
@@ -175,7 +175,7 @@ p {
 .sobre-o-site {
   width: 100%;
   max-width: 700px;
-  text-align:justify;
+  text-align: justify;
   margin: 0;
   padding: 10px;
   background-color: rgb(184, 180, 180);
@@ -327,13 +327,12 @@ a {
 .box1 {
   width: 100%;
   height: 45px;
-  background-color: rgb(224, 220, 220);
   border-radius: 15px 15px 0 0;
 }
 
 .inbox1 {
   margin: 7.5px;
-  color: rgba(0, 0, 0, 0.89);
+  color: rgba(255, 255, 255, 0.89);
 }
 
 ol {
@@ -350,7 +349,6 @@ ol {
 }
 
 .redes-info {
-  
   display: flex;
   align-items: center;
   margin: 10px 5px;
@@ -371,6 +369,90 @@ ol {
 
 .resumo-info {
   height: 300px;
+}
+
+.tema-claro {
+  background-image: linear-gradient(
+    135deg,
+    #dfc5c5 90%,
+    rgb(29, 27, 29) 80%
+  );
+  color: rgb(0, 0, 0) !important;
+}
+
+.tema-claro article,
+.tema-claro .resumo-info,
+.tema-claro .redes-info,
+.tema-claro nav,
+.tema-claro .opcoes,
+.tema-claro .contatos,
+.tema-claro .resumo,
+.tema-claro #container,
+.tema-claro .container3,
+.tema-claro .container2,
+.tema-claro #sobre-main,
+.tema-claro #secoes,
+.tema-claro h4,
+.tema-claro h3,
+.tema-claro h1,
+.tema-claro #main {
+  border-radius: 7px;
+  background-color: #dfc5c5 !important;
+  color: black !important;
+  border-color: rgb(0, 0, 0) !important;
+}
+
+.tema-claro a,
+.tema-claro button {
+  background-color: rgb(99, 95, 95);
+}
+
+.tema-claro a:hover {
+  background-color: rgb(32, 32, 32);
+  color: rgb(255, 255, 255);
+}
+
+.tema-claro .active {
+  border-color: black;
+  background-color: rgb(226, 228, 227);
+  color: rgb(0, 0, 0);
+}
+
+.tema-claro .inbox1,
+.tema-claro .corpo-sobre {
+  color: black;
+}
+
+.tema-claro .redes {
+  border-color: black;
+}
+
+.tema-claro .box1 {
+  background-color: rgb(224, 220, 220);
+}
+
+.tema-escuro {
+  /* já é o padrão do seu site, então você pode até não precisar definir isso */
+}
+
+.botoes-funcionais {
+  display: flex;
+  margin-left: 15px;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+
+.btn-idioma {
+  padding: 1px 15px;
+  background-color: rgba(29, 27, 27, 0.353);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.btn-idioma:hover {
+  background-color: rgba(171, 162, 171, 0.767);
 }
 
 

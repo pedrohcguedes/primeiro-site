@@ -16,12 +16,16 @@
         <div class="nav">
           <div class="opcoes">
             <ul>
-              <li><a href="index.html">Sobre Mim</a></li>
-              <li>
+              <li id="mim-nav"><a href="index.html">Sobre Mim</a></li>
+              <li id="curiosidade-nav">
                 <a class="active" href="curiosidades.html">Curiosidades</a>
               </li>
-              <li class=""><a href="site.html">Sobre o Site</a></li>
+              <li id="site-nav" class=""><a href="site.html">Sobre o Site</a></li>
             </ul>
+            <div class="botoes-funcionais">
+              <button id="btn-traduzir2" class="btn-idioma">Translate</button>
+              <button id="btn-tema2" class="btn-idioma">Theme</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -29,7 +33,7 @@
     <main>
       <div id="container">
         <section>
-          <article>
+          <article class="curiosidade">
             <h2>Curiosidades!</h2>
             <p>
               Nesta página você verá alguns dos meus trabalhos e Hobbys
@@ -92,22 +96,6 @@
         </div>
       </div>
     </main>
-
-    <footer>
-      <div id="seta-direita">
-        <a href="site.html"
-          ><button class="botao1" type="submit">
-            <i class="fa fa-arrow-right" aria-hidden="true"
-              ><img class="seta" src="./img/flecha.png"
-            /></i></button
-        ></a>
-        <a href="index.html"
-          ><button class="botao2" type="submit">
-            <i class="fa fa-arrow-right" aria-hidden="true"
-              ><img class="seta" src="./img/flecha3.png"
-            /></i></button
-        ></a>
-      </div>
-    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

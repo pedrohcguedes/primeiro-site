@@ -16,12 +16,16 @@
         <div class="nav">
           <div class="opcoes">
             <ul>
-              <li><a class="active" href="index.html">Sobre Mim</a></li>
-              <li>
+              <li id="mim-nav"><a class="active" href="index.html">Sobre Mim</a></li>
+              <li id="curiosidade-nav">
                 <a href="curiosidades.html">Curiosidades</a>
               </li>
-              <li><a href="site.html">Sobre o Site</a></li>
+              <li id="site-nav"><a href="site.html">Sobre o Site</a></li>
             </ul>
+            <div class="botoes-funcionais">
+              <button id="btn-traduzir" class="btn-idioma">Translate</button>
+              <button id="btn-tema" class="btn-idioma">Theme</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -53,9 +57,7 @@
               faculdade SENAC em Santo Amaro com previsão de formatura para
               11/2028. Além disso, estou me especializando como Desenvolvedor
               Full Stack pela RocketSeat, com o foco em JavaScript, Node.JS,
-              TypeScript, API REST e React. 
-              <br><br>
-              Meu objetivo é me tornar um
+              TypeScript, API REST e React. Meu objetivo é me tornar um
               Desenvolvedor de Software Full Stack, já tive algumas experiências
               com eventos da RocketSeat, como a NWL, onde em uma delas eu fiz um
               linktree utilizando HTML,CSS e JavaScript, e no último evento eu
@@ -143,15 +145,6 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div id="seta-direita">
-        <a href="curiosidades.html"
-          ><button class="botao1" type="submit">
-            <i class="fa fa-arrow-right" aria-hidden="true"
-              ><img class="seta" src="./img/flecha.png"
-            /></i></button
-        ></a>
-      </div>
-    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
