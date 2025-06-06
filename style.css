@@ -459,6 +459,15 @@ ol {
 
 @media (max-width: 914px) {
 
+  *{
+    align-items: center;
+    justify-content: center;
+  }
+
+  html{
+    max-width: 100vh;
+  }
+
   main {
     align-items: center;
     justify-content: center;
