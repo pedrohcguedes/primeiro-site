@@ -33,6 +33,7 @@ nav {
   top: 0;
   background-color: rgb(19, 19, 19);
   border-bottom: 1px solid white;
+  z-index: 100;
 }
 
 .nav {
@@ -220,6 +221,7 @@ iframe {
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.378);
   box-shadow: rgba(255, 255, 255, 0.11) 6px 6px 10px;
+  z-index: -10;
 }
 
 article {
