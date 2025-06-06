@@ -455,6 +455,8 @@ ol {
   background-color: rgba(171, 162, 171, 0.767);
 }
 
+/* --- RESPONSIVO --- */
+
 @media (max-width: 914px) {
 
   main {
