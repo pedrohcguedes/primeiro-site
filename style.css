@@ -135,6 +135,10 @@ main {
 
 #main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 #sobre-main {
@@ -186,8 +190,6 @@ p {
 
 .container2 {
   background-color: rgba(0, 0, 0, 0.353);
-  width: 100%;
-  max-width: 640px;
   padding: 0 24px;
   margin: 0px 50px;
   border-radius: 15px;
@@ -196,11 +198,9 @@ p {
 }
 
 .container3 {
+  margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.353);
-  width: 100%;
-  max-width: 640px;
   padding: 0 24px;
-  margin: 0px 50px;
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.378);
   box-shadow: 6px 6px 10px;
@@ -274,8 +274,9 @@ a {
   display: flex;
   background-color: rgba(0, 0, 0, 0.353);
   backdrop-filter: blur(5px);
-  width: 100%;
-  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  
   padding: 24px 24px;
   margin: 0 auto;
   align-items: center;
@@ -457,7 +458,7 @@ ol {
 
 /* --- RESPONSIVO --- */
 
-@media (max-width: 914px) {
+@media (max-width: 964px) {
 
   *{
     align-items: center;
