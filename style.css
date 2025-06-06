@@ -455,4 +455,137 @@ ol {
   background-color: rgba(171, 162, 171, 0.767);
 }
 
+@media (max-width: 914px) {
+
+  main {
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px 0;
+  }
+
+  .pedro {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .nav {
+    position: static;
+    width: 100%vb;
+    justify-content: center;
+  }
+
+  .opcoes {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul li {
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+    border: none;
+  }
+
+  li a {
+    display: inline-block;
+    width: 80%;
+    padding: 12px;
+  }
+
+  .botoes-funcionais {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #secoes {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 85%;
+  }
+
+  #video {
+    height: 250px;
+  }
+
+  #container,
+  .resumo,
+  .contatos,
+  .imagem-perfil {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  #sobre-main {
+    max-width: 85%;
+    margin-top: 50px;
+  }
+
+  #container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #foto{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .imagem-perfil {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagem-perfil img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .container2,
+  .container3 {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  #main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 250px;
+  }
+
+  article {
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .resumo-info {
+    height: auto;
+  }
+}
+
+
+
 
